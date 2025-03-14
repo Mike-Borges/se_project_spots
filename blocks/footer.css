@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 638px;
+}
+
+.footer__copyright {
+  width: 104px;
+  height: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 16px;
+  white-space: nowrap;
+}
