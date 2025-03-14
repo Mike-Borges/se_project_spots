@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px 638px;
 }
 
 .footer__copyright {
+  padding: 60px 638px;
   width: 104px;
   height: 16px;
   margin: 0;
@@ -13,4 +13,10 @@
   line-height: 1;
   font-size: 16px;
   white-space: nowrap;
+}
+
+@media screen and (max-width: 627px) {
+  .footer__copyright {
+    padding: 60px 108px;
+  }
 }

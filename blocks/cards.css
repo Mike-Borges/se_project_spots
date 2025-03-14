@@ -16,6 +16,7 @@
   .cards {
     display: flex;
     justify-content: center;
+    max-width: 288px;
   }
 
   .cards__list {
