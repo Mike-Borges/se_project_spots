@@ -6,6 +6,7 @@
 - Tech Stack
 - Figma
 - Deployment
+- Project Video
 - Images
 
 ## Description
@@ -24,11 +25,15 @@ This project is made so all the elements are displayed correctly on popular scre
 
 ## Deployment
 
-[Deployment link](https://mike-borges.github.io/se_project_spots/)
+- [Deployment link](https://mike-borges.github.io/se_project_spots/)
+
+## Project Video
+
+- [Project Video](https://drive.google.com/file/d/1bb6H8UJ0bWU31PYZZZyFSoMAtlY3KRll/view?usp=sharing)
 
 ## Images
 
 ![alt text](./images/Spots%20App%201440px.png)
 ![alt text](<./images/Spots%20App%20Mobile%20Version%20(2).png>)
 
-Good luck and have fun!
+Thank you!

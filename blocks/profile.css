@@ -19,6 +19,7 @@
 
 .profile__name {
   margin: 0 0 12px;
+  color: #212121;
   font-weight: 500;
   line-height: 1;
   font-size: 32px;
@@ -32,6 +33,7 @@
 
 .profile__description {
   margin: 0;
+  color: rgba(33, 33, 33, 0.7);
   font-weight: 500;
   line-height: 1;
   font-size: 16px;
@@ -53,16 +55,24 @@
   font-weight: 500;
   line-height: 1;
   font-size: 16px;
+  gap: 8px;
+}
+
+.profile__edit-btn::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: center / contain no-repeat url(../images/pencil.svg);
 }
 
 .profile__add-btn {
   margin-left: auto;
   margin-top: auto;
   display: flex;
-  padding: 18px 32px;
+  padding: 18px 24px 18px 32px;
   width: 149px;
   height: 52px;
-  background-color: black;
+  background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
   font-weight: 500;
@@ -70,10 +80,16 @@
   font-size: 16px;
   white-space: nowrap;
   justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 8px;
 }
 
-.profile__icon {
-  padding-right: 8px;
+.profile__add-btn::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: center / contain no-repeat url(../images/plus.svg);
 }
 
 .profile__edit-btn:hover {
