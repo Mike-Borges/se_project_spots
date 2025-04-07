@@ -87,6 +87,7 @@
   color: #fcf5e5;
   font-weight: 500;
   line-height: 1;
+  border: none;
 }
 
 @media screen and (max-width: 627px) {
