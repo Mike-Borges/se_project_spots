@@ -91,6 +91,10 @@
   color: rgba(33, 33, 33, 1);
 }
 
+.modal__input-error_active {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
 .modal__input:hover {
   cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 1);
@@ -99,24 +103,27 @@
 .modal__error {
   color: rgba(255, 0, 0, 0.7);
   display: block;
-  line-height: 1.1;
   font-size: 16px;
-  font-weight: 500;
 }
 
 .modal__submit-btn {
   width: 156px;
   padding: 18px 32px;
   border-radius: 8px;
-  background-color: #212121;
+  background-color: rgba(33, 33, 33, 1);
   color: #fcf5e5;
   font-weight: 500;
   line-height: 1;
   border: none;
 }
+.modal__submit-btn_inactive {
+  pointer-events: none;
+  background-color: rgba(33, 33, 33, 0.5);
+}
 
 .modal__submit-btn:hover {
   cursor: pointer;
+  background-color: rgba(33, 33, 33, 0.8);
 }
 
 .modal__image-container {
