@@ -74,7 +74,9 @@ const setEventListeners = (formEl, config) => {
 };
 
 export const enableValidation = (config) => {
-  const formList = Array.from(document.querySelectorAll(config.formSelector));
+  const formList = Array.from(
+    document.querySelectorAll(`${config.formSelector}:not(.modal__form-delete)`)
+  );
   formList.forEach((formEl) => {
     setEventListeners(formEl, config);
   });

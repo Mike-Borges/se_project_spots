@@ -126,10 +126,12 @@ editProfileBtn.addEventListener("click", () => {
   openModal(editProfileModal);
 });
 
-document.querySelectorAll(".modal__close-btn").forEach((button) => {
-  const modal = button.closest(".modal");
-  button.addEventListener("click", () => closeModal(modal));
-});
+document
+  .querySelectorAll(".modal__close-btn, .modal__submit-btn-cancel")
+  .forEach((button) => {
+    const modal = button.closest(".modal");
+    button.addEventListener("click", () => closeModal(modal));
+  });
 
 newPostBtn.addEventListener("click", () => {
   openModal(newPostModal);
@@ -233,10 +235,6 @@ function handleNewPostSubmit(evt) {
     .then((newCardData) => {
       const newCard = getCardElement(newCardData, currentUser._id);
       cardsList.prepend(newCard);
-
-      evt.target.reset();
-      closeModal(newPostModal);
-      newPostSubmitBtn.disabled = true;
     })
     .catch(console.error)
     .finally(() => {
